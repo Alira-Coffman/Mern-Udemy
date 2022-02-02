@@ -1,0 +1,23 @@
+.user-item_content
+{
+    background-color: #239558;
+    margin: 5px;
+    width:  25%;
+}
+.user-item_content a 
+{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    
+}
+.user-item_info
+{
+    display: flex; 
+    align-items: center;
+}
+
+.user-item_content a, .user-item_info
+{
+    padding: 2px;
+}
