@@ -1,23 +1,18 @@
+.userItem{
+  
+    padding: 5px;
+}
+.user-item_content:hover
+{
+    background:#fcb9b2;
+    color: #239558;
+}
 .user-item_content
 {
-    background-color: #239558;
-    margin: 5px;
-    width:  25%;
+    background:#239558;
+    color: #fcb9b2;
 }
-.user-item_content a 
+.userItem a
 {
-    display: flex;
-    align-items: center;
     text-decoration: none;
-    
-}
-.user-item_info
-{
-    display: flex; 
-    align-items: center;
-}
-
-.user-item_content a, .user-item_info
-{
-    padding: 2px;
 }

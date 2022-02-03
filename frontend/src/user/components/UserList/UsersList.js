@@ -9,16 +9,19 @@ const UsersList = props => {
     }
 
     return (
-        <ul className="userList">
-            {props.items.map(user => (
-                <UserItem 
-                key={user.id} 
-                id = {user.id}
-                img={user.image} 
-                name={user.name} 
-                placeCount={user.places}/>
-            ))}
-        </ul>
+        <div className="container w-25">
+            <ul className="userList d-flex justify-content-center flex-column">
+                        {props.items.map(user => (
+                            <UserItem 
+                            key={user.id} 
+                            id = {user.id}
+                            img={user.image} 
+                            name={user.name} 
+                            placeCount={user.places}/>
+                        ))}
+                    </ul>
+        </div>
+        
     );
 };
 
